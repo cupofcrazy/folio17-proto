@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111111;
+}
+
+.Home-title {
+    position: fixed;
+    top: 50%;
+    left: 7em;
+    transform: translateY(-50%);
+    font-size: .8em;
+    letter-spacing: 10px;
+    font-family: Montserrat;
+    
+}
+
+.Home-title .name {
+    font-family: Playfair Display;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.Home-title .subtitle {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.Home-projects {
+    position: absolute;
+    right: 7em;
+    top: 0;
+    height: 2000px;
+    width: 60%;
+    /* border-left: 1px solid #aaa; */
+}
+
+.project-image {
+    width: 500px;
+    height: 350px;
+    background: rgb(154, 156, 135);
+}
+
+.Home-projects .image {
+    width: 500px;
+    
+}
+.scrollbar {
+    height: 100vh;
+}
+
+.image {
+    position: absolute;
+}
+
+.image .title h1 {
+    color: #FFFFFF;
+    font-size: 5rem;
+    position: absolute;
+    top: .7em;
+    margin-left: -1em;
+    font-family: Montserrat;
+}
+
+/*Images */
+.image-1 {
+    top: 0;
+    right: 0;
+}
+
+.image-2 {
+    top: 500px;
+    left: 0;
+}
+
+.image-3 {
+    top: 1000px;
+    left: 25%;
+}
+
+.image-4 {
+    top: 1500px;
+    left: 0%;
+}
+
+.image-5 {
+    top: 2000px;
+    right: 10%;
+}
+
+.image-6 {
+    top: 2500px;
+    left: 5%;
+}
+
+.bg {
+    position: fixed;
+    font-family: Playfair Display;
+    font-weight: 100;
+    top: 50%;
+    right: 40%;
+    font-size: 30em;
+    color: rgb(53, 53, 53);
+    transform: translateY(-50%);
+}
+
+.about {
+    color: #FFFFFF;
+    position: fixed;
+    top: 4em;
+    left: 5em;
+    font-family: Montserrat;
+}
