@@ -7,4 +7,4 @@ Prototype of my portfolio website (2017)
 * `npm run build` to generate a minified, production-ready build.
 
 ## Preview
-<a href="https://media.giphy.com/media/l4EpfM87HhE6sbp1S/giphy.gif"></a>
+<img src="https://media.giphy.com/media/l4EpfM87HhE6sbp1S/giphy.gif"/>
